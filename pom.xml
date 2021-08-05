@@ -7,6 +7,10 @@
 	<version>1.0</version>
 	<name>MyBank-Demo Webapp</name>
 	<url>http://maven.apache.org</url>
+		<properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+             </properties>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -19,11 +23,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.39</version>
 		</dependency>
-		<properties>
-    <maven.compiler.source>1.6</maven.compiler.source>
-    <maven.compiler.target>1.6</maven.compiler.target>
-             </properties>
-
 	</dependencies>
 	<build>
 		<finalName>ROOT</finalName>
